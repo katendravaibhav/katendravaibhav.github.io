@@ -127,6 +127,29 @@
       padding: 6px 10px;
       border-radius: 6px;
     }
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.profile-links .resume-btn {
+  border: 1px solid #1f4fd8;
+  color: #1f4fd8 !important;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  background: transparent;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.profile-links .resume-btn:hover {
+  background: #1f4fd8;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
 
     .exp-title { font-weight: 600; font-size: 17px; }
 
@@ -152,7 +175,8 @@
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#achievements">Achievements</a>
-      <a href="https://drive.google.com/file/d/19KPCrpV5SXRWx3Y4Zh83f6TtaLVLYuuQ/view?usp=sharing" target="_blank">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="https://drive.google.com/file/d/1ZzBN9RaSezBtn-jukHU6yQmHKcmNssVp/view?usp=sharing" target="_blank">Resume</a>
     </div>
   </nav>
 </header>
@@ -164,12 +188,16 @@
     <img src="profile.jpg" class="photo" />
     <div class="intro-text">
       <h1>Vaibhav Katendra</h1>
-      <div class="role">Software Development Engineer | App Development | Android | Frontend & Backend</div>
+      <div class="role">Software Development Engineer | Systems Engineer | App Development | Frontend & Backend</div>
       <div class="profile-links">
         <a href="https://github.com/katendravaibhav" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/vaibhav-katendra-5a727b283/" target="_blank">LinkedIn</a>
         <a href="https://leetcode.com/u/katendravaibhav/" target="_blank">LeetCode</a>
         <a href="https://codeforces.com/profile/vaibhavkatendra" target="_blank">Codeforces</a>
+        <a href="https://drive.google.com/file/d/1ZzBN9RaSezBtn-jukHU6yQmHKcmNssVp/view?usp=sharing"
+   target="_blank"
+   class="resume-btn">Resume</a>
+
       </div>
     </div>
   </div>
@@ -292,6 +320,16 @@
   <h2>Experience</h2>
 
   <div class="exp-item">
+    <div class="exp-title">IIT Delhi — Summer Research Intern (IoT Security)</div>
+    <div class="exp-sub">May 2025 – July 2025</div>
+    <ul>
+      <li>Developed <b><i>adversarial AI-driven IDS</i></b> using fuzzing and ML attacks.</li>
+      <li>Detected <b><i>AI-assisted network intrusions</i></b> with low false positives.</li>
+      <li>Validated models on <b><i>simulated networks and real IoT devices</i></b>.</li>
+    </ul>
+  </div>
+  
+  <div class="exp-item">
     <div class="exp-title">Walmart Global Tech — Software Engineering Trainee</div>
     <div class="exp-sub">May 2023 – July 2023</div>
     <ul>
@@ -301,15 +339,6 @@
     </ul>
   </div>
 
-  <div class="exp-item">
-    <div class="exp-title">IIT Delhi — Summer Research Intern (IoT Security)</div>
-    <div class="exp-sub">May 2025 – July 2025</div>
-    <ul>
-      <li>Developed <b><i>adversarial AI-driven IDS</i></b> using fuzzing and ML attacks.</li>
-      <li>Detected <b><i>AI-assisted network intrusions</i></b> with low false positives.</li>
-      <li>Validated models on <b><i>simulated networks and real IoT devices</i></b>.</li>
-    </ul>
-  </div>
 </section>
 
 <section id="achievements">
@@ -323,6 +352,22 @@
       <li>Selected for <b>NVS free residential education program</b></li>
       <li>Represented <b>Chhattisgarh</b> at national <b>Vidyarthi Vigyan Manthan</b> (IIT Delhi)</li>
       <li><b>National-level</b> football and athletics player (NVS)</li>
+    </ul>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="block">
+    <p>
+      If you'd like to connect regarding internships, research, or full-time SDE roles, feel free to reach out:
+    </p>
+
+    <ul>
+      <li><b>Email:</b> <a href="mailto:vaibhavkatendra1709@gmail.com">vaibhavkatendra1709@gmail.com</a></li>
+      <li><b>Phone:</b> <a href="tel:+919131332609">+91-9131332609</a></li>
+      <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/vaibhav-katendra-5a727b283/" target="_blank">linkedin.com/in/vaibhav-katendra</a></li>
+
     </ul>
   </div>
 </section>
